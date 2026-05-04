@@ -1,0 +1,46 @@
+[
+  {
+    "Ticket ID": "TKT-001",
+    "Predicted Priority": "Critical",
+    "Confidence": 0.5303654670715332,
+    "Probabilities": {
+      "Low": 0.0659128949046135,
+      "Medium": 0.15330788493156433,
+      "High": 0.2504136860370636,
+      "Critical": 0.5303654670715332
+    }
+  },
+  {
+    "Ticket ID": "TKT-002",
+    "Predicted Priority": "Critical",
+    "Confidence": 0.3715314567089081,
+    "Probabilities": {
+      "Low": 0.08745425194501877,
+      "Medium": 0.23442797362804413,
+      "High": 0.306586354970932,
+      "Critical": 0.3715314567089081
+    }
+  },
+  {
+    "Ticket ID": "TKT-003",
+    "Predicted Priority": "High",
+    "Confidence": 0.41928717494010925,
+    "Probabilities": {
+      "Low": 0.17807109653949738,
+      "Medium": 0.11087977141141891,
+      "High": 0.41928717494010925,
+      "Critical": 0.29176199436187744
+    }
+  },
+  {
+    "Ticket ID": "TKT-004",
+    "Predicted Priority": "High",
+    "Confidence": 0.39798852801322937,
+    "Probabilities": {
+      "Low": 0.09892097115516663,
+      "Medium": 0.1439364105463028,
+      "High": 0.39798852801322937,
+      "Critical": 0.3591541051864624
+    }
+  }
+]

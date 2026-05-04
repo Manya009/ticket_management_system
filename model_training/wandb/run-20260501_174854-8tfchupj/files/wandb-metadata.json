@@ -1,0 +1,34 @@
+{
+  "os":  "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.11",
+  "startedAt":  "2026-05-01T16:48:54.656183Z",
+  "program":  "/Users/manish09/Desktop/ticket system/model_training/main.ipynb",
+  "codePath":  "/Users/manish09/Desktop/ticket system/model_training/main.ipynb",
+  "codePathLocal":  "main.ipynb",
+  "email":  "273manishp@gmail.com",
+  "root":  "/Users/manish09/Desktop/ticket system/model_training",
+  "host":  "Manishs-MacBook-Air.local",
+  "executable":  "/Users/manish09/Desktop/ticket system/myenv/bin/python",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "208012898304"
+    }
+  },
+  "memory":  {
+    "total":  "25769803776"
+  },
+  "apple":  {
+    "name":  "Apple M4",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  24,
+    "swapTotalBytes":  "10737418240",
+    "ramTotalBytes":  "25769803776",
+    "macModel":  "Mac16,12"
+  },
+  "writerId":  "ekezfbqwxrl10vs6x0xa5mpt4m0bf9l4"
+}

@@ -1,0 +1,117 @@
+2026-05-01 17:51:00,492 INFO    MainThread:90499 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /Users/manish09/Desktop/ticket system/model_training/wandb/run-20260501_175100-3xvo4v0a/logs/debug.log
+2026-05-01 17:51:00,492 INFO    MainThread:90499 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /Users/manish09/Desktop/ticket system/model_training/wandb/run-20260501_175100-3xvo4v0a/logs/debug-internal.log
+2026-05-01 17:51:00,492 INFO    MainThread:90499 [wandb_init.py:monkeypatch_ipython():642] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x12b372fd0>
+2026-05-01 17:51:00,492 INFO    MainThread:90499 [wandb_init.py:init():850] calling init triggers
+2026-05-01 17:51:00,492 INFO    MainThread:90499 [wandb_init.py:init():855] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-05-01 17:51:01,720 INFO    MainThread:90499 [wandb_init.py:init():898] starting backend
+2026-05-01 17:51:01,720 INFO    MainThread:90499 [wandb_init.py:init():913] sending inform_init request
+2026-05-01 17:51:01,990 INFO    MainThread:90499 [wandb_init.py:init():918] backend started and connected
+2026-05-01 17:51:01,991 INFO    MainThread:90499 [wandb_run.py:_label_probe_notebook():1345] probe notebook
+2026-05-01 17:51:01,992 INFO    MainThread:90499 [wandb_init.py:init():988] updated telemetry
+2026-05-01 17:51:01,993 INFO    MainThread:90499 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-01 17:51:02,645 INFO    MainThread:90499 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-01 17:51:02,706 INFO    MainThread:90499 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-01 17:51:02,706 INFO    MainThread:90499 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-01 17:51:02,706 INFO    MainThread:90499 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-01 17:51:02,706 INFO    MainThread:90499 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-01 17:51:02,706 INFO    MainThread:90499 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-01 17:51:02,714 INFO    MainThread:90499 [wandb_init.py:_post_run_cell_hook():612] [no run ID] resuming backend
+2026-05-01 17:52:23,071 INFO    MainThread:90499 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-05-01 17:52:23,072 INFO    MainThread:90499 [wandb_init.py:_pre_run_cell_hook():601] [no run ID] pausing backend
+2026-05-01 17:52:23,273 INFO    MainThread:90499 [wandb_run.py:_finish():2321] finishing run hi-hello/ticket-priority-classification/3xvo4v0a
+2026-05-01 17:52:23,275 INFO    MainThread:90499 [jupyter.py:save_ipynb():362] not saving jupyter notebook
+2026-05-01 17:52:23,275 INFO    MainThread:90499 [wandb_init.py:_jupyter_teardown():627] cleaning up jupyter logic
+2026-05-01 17:52:23,275 INFO    MainThread:90499 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 0
+2026-05-01 17:52:23,276 INFO    MainThread:90499 [wandb_run.py:_restore():2502] restore
+2026-05-01 17:52:23,276 INFO    MainThread:90499 [wandb_run.py:_restore():2508] restore done
+2026-05-01 17:54:44,342 WARNING MainThread:90499 [wandb_init.py:init():1595] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 871, in init
+    self._wl.finish_all_active_runs()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_setup.py", line 167, in finish_all_active_runs
+    run.finish()
+    ~~~~~~~~~~^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 411, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 456, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2309, in finish
+    return self._finish(exit_code)
+           ~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 411, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2337, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2531, in _atexit_cleanup
+    self._on_finish()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2748, in _on_finish
+    wait_with_progress(
+    ~~~~~~~~~~~~~~~~~~^
+        exit_handle,
+        ^^^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        [handle],
+        ^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        display_progress=display_progress,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 78, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 137, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+2026-05-01 17:56:59,886 ERROR   MainThread:90499 [wandb_init.py:init():1601] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 914, in init
+    interface = service.inform_init(
+        settings=settings.to_proto(),
+        run_id=settings.run_id,  # type: ignore
+    )
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 285, in inform_init
+    self._asyncer.run(init_and_wait_for_response)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 137, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 223, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 282, in init_and_wait_for_response
+    handle = await self._client.deliver(server_request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 60, in deliver
+    handle = self._mailbox.require_response(request)
+  File "/Users/manish09/Desktop/ticket system/myenv/lib/python3.13/site-packages/wandb/sdk/mailbox/mailbox.py", line 90, in require_response
+    raise MailboxClosedError()
+wandb.sdk.mailbox.mailbox.MailboxClosedError
