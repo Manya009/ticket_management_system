@@ -4,3 +4,7 @@ myenv/
 app/__pycache__/
 __pycache__/
 .DS_Store
+model_training/wandb/
+model_training/model/
+*.rdb
+dump.rdb
