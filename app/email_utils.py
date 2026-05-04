@@ -28,3 +28,12 @@ def send_email(to_email, subject, body):
 #(myenv) (base) manish09@Manishs-MacBook-Air ticket system % 
 #command to make this a github repository:
 # git init
+# git add .
+
+#I HAVE NOT MADE A REPOSITORY YET, 
+
+#WHAT AFTER  git add .  ?
+# git commit -m "Initial commit"
+# git branch -M main
+# git remote add origin <your-repo-url>
+# git push -u origin main
